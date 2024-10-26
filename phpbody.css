@@ -1,0 +1,71 @@
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0.8;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    background-color: #444;
+    text-align: center;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+.nav1 button{
+    background-color: #fdfdfd;
+    color: #000000;
+    padding: 8px;
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.2s;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nav1 button:hover {
+    transition: 0.4s ease-in-out;
+    background: #000000;
+    color: white;
+    text-decoration: underline;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('city3.gif');
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100%;
+    align-content: center;
+}
+.box {
+    border: 2px solid black;
+    background-color: #dde2e3ae;
+    padding: 20px;
+    width: 45%;
+    margin: 20px auto;
+    opacity: 80%;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    z-index: 10; 
+    position: relative;
+    bottom:auto;
+}

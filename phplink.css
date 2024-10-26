@@ -1,0 +1,31 @@
+.ref_container {
+    color: #fff;
+    text-align: left; 
+    padding: 2.5px;
+    cursor: pointer;
+    border: 50px;
+}
+
+.ref_container button {
+    background-color: #fdfdfd;
+    color: #000000;
+    padding: 7px;
+    text-align: left;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.2s;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.ref_container button:hover {
+    transition: 0.4s ease-in-out;
+    background: #000000;
+    color: white;
+    text-decoration: underline;
+    border-radius: 5px;
+    z-index: 10;
+}
