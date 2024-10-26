@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="phpbody.css">
+    <link rel="stylesheet" href="phplink.css">
+
+</head>
+<body>
+    <div class="box">
+        <?php
+            $name = "<u>Jonjie V. Tribunalo Jr.</u>";
+            $course = "<u>BSIS 3-A</u>";
+            echo "<p><strong>Name:</strong> $name</p>";
+            echo "<p><strong>Course/Yr/Section:</strong> $course</p>";
+        ?>
+        <div class="ref_container"><button onclick="window.location.href
+        ='page1_cv.php'">1. Curriculum Vitae</button></div>
+        <div class="ref_container"><button onclick="window.location.href
+        ='page2_vars.php'">2. The Use of Variables</button></div>
+        <div class="ref_container"><button onclick="window.location.href
+        ='page3_maninum.php'">3. Manipulating Numbers</button></div>
+        <div class="ref_container"><button onclick="window.location.href
+        ='page4_math.php'">4. Using Math Functions</button></div>
+        <div class="ref_container"><button onclick="window.location.href
+        ='page5_cons.php'">5. Using Constants</button></div>
+        <div class="ref_container"><button onclick="window.location.href
+        ='page6_select.php'">6. Selection Statements</button></div>
+        <div class="ref_container"><button onclick="window.location.href
+        ='page7_loop.php'">7. Loop Statements</button></div>
+        <div class="ref_container"><button onclick="window.location.href
+        ='page8_udf.php'">8. User-defined Functions</button></div>
+        <div class="ref_container"><button onclick="window.location.href
+        ='page9_sda.php'">9. Single-dimensional Array</button></div>
+        <div class="ref_container"><button onclick="window.location.href
+        ='page10_tda.php'">10. Two-dimensional Array</button></div>
+    </div>
+
+    <footer>
+        <p>&copy; Created by Jonjie V. Tribunalo Jr.</p>
+        <p>Date Created: October 10, 2024</p>
+        <p>All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
